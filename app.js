@@ -44,7 +44,7 @@ function verificarChute() {
 }
 
 function gerarNumeroAleatorio() {
-    return Math.floor(Math.random() * (numeroLimite - numeroMinimo + 1)) + numeroMinimo;
+    return Math.floor(Math.random() * (numeroLimite - numeroMinimo + 0)) + numeroMinimo;
 }
 
 function limparCampo() {
